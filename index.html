@@ -1,0 +1,252 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale= 1.0, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta http-equiv="Content-Type" content=""text/html; charset=utf-8>
+	<title>北之煤</title>
+	<link rel="icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="all.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="all.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="jquery-3.2.1.min.js"></script>
+	<script src="jquery-ui.min.js"></script>
+</head>
+<body id="fmy" onload="testcookie();fadeout();slide();">
+		<div class="head" id="top" name="top">
+			<a href="index.html"><img class="head_logo" src="logo.png" src="北之煤.png"/></a>
+			<a href="index.html"><img class="head_logo" src="北之煤.png" style="width:20%"/></a>
+			
+		</div>
+		
+		<!--import boostrap menu-->	
+	<div class="bs">
+		<nav class="navbar navbar-fixed-top navbar-inverse">
+			<div class="container">
+				<div class="navbar-header">		
+						  <button data-toggle="collapse-side" data-target-sidebar=".side-collapse-left" data-target-content=".side-collapse-container-left" type="button" class="navbar-toggle pull-left">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						  </button>
+					  <div style="position:absolute;left:30%;padding:3px;" class="RWDlogo">
+						<table>	
+							<tr>
+								<td>
+									<img src="logo.png" style="width:100%;vertical-align: bottom"/>
+								</td>
+								<td>
+									<img src="北之煤.png" style="width:60%;padding-left:1%;"/>
+								</td>
+							</tr>
+						</table>	
+						
+						
+					  </div>
+				</div>
+				<div class="navbar-inverse side-collapse-left in">
+					<nav role="navigation" class="navbar-collapse">
+						<ul class="nav navbar-nav navbar-left">
+						  <li><a href="#jpn1" data-toggle="collapse-side">簡介</a></li>
+						  <li><a href="#jpn2" data-toggle="collapse-side">緣由</a></li>
+						</ul>
+						<form name="chformat">
+							<input type="text" id="plsfmy" placeholder="font-family" name="tbFontfmy"/>
+							<input type="text" id="plscol" placeholder="background-color" name="tbColor"/>
+							<input type="text" id="plssz" placeholder="font-size" name="tbSize"/>
+							<input type="button" value="確定" onclick="chgbgcolor(),chgSize(),chgfmy()"/><br>
+						</form>
+					</nav>
+				</div>
+			</div>
+		</nav>
+	</div>
+
+	   <!-- menu end-->
+	
+		<a href="#" class="goHOME"><img class="topimg" src="img\top.png"/></a>
+	
+<!--   首頁圖片控制 -->
+<div class=banner>
+<style type="text/css">
+<!--
+#banner {
+background: #FFF;
+overflow:hidden;
+border: 0px dashed #CCC;
+width:100%;
+}
+#banner img {
+border: 0px solid #F2F2F2;
+}
+#inbanner {
+float: left;
+width: 800%;
+}
+#banner1 {
+float: left;
+}
+#banner2 {
+float: left;
+}
+-->
+</style>
+<!--向左滾動-->
+<div id="banner">
+<div id="inbanner">
+<div id="banner1">
+<a href="#"><img src="banner.png" border="0" style="width:80%;" /></a>
+</div>
+<div id="banner2"></div>
+</div>
+</div>
+<script>
+<!--
+var speed=100; //數字越大速度越慢
+var tab=document.getElementById("banner");
+var tab1=document.getElementById("banner1");
+var tab2=document.getElementById("banner2");
+tab2.innerHTML=tab1.innerHTML;
+function Marquee(){
+if(tab2.offsetWidth-tab.scrollLeft<=0)
+tab.scrollLeft-=tab1.offsetWidth
+else{
+tab.scrollLeft++;
+}
+}
+var MyMar=setInterval(Marquee,speed);
+tab.onmouseover=function() {clearInterval(MyMar)};
+tab.onmouseout=function() {MyMar=setInterval(Marquee,speed)};
+-->
+</script>
+
+			
+			
+			
+			
+			
+		</div>
+		<div id="menu"  style="text-align:center;padding:20px;">
+			
+			<table class="menu_pc" style="text-align:center;padding:0;margin-left:auto; margin-right:auto;">
+				<tr>
+					<td><a href="MiningIndustry.html#jpn0" ><img src="img\first_img.png" style="width:60%;padding-bottom:10px;"class="shake"></a></td>
+					<td><a href="MineScenery.html#jpn0" class="shake1"><img src="img\second_img.png" style="width:60%;padding-bottom:10px;"class="shake"></a></td>
+					<td><a href="TraceBackmine.html#jpn0" class="shake1"><img src="img\third_img.png" style="width:60%;padding-bottom:10px;"class="shake"></a></td>
+					<td><a href="TechnologicalChange.html#jpn0" class="shake1"><img src="img\fourth_img.png" style="width:60%;padding-bottom:10px;"class="shake"></a></td>
+					<td><a href="SafetyDanger.html#jpn0" class="shake1"><img src="img\fifth_img.png" style="width:60%;padding-bottom:10px;"class="shake"></a></td>
+					<td><a href="MinerLife.html#jpn0" class="shake1"><img src="img\sixth_img.png" style="width:60%;padding-bottom:10px;"class="shake"></a></td>
+				</tr>
+				<tr style="font-size:28px;color:white;">
+					<td style="width:180px;"class="shake">煤礦產業</td>
+					<td style="width:180px;"class="shake">礦道之景</td>
+					<td style="width:180px;"class="shake">追溯臺煤</td>
+					<td style="width:180px;"class="shake">技術變革</td>
+					<td style="width:180px;"class="shake">安全危險</td>
+					<td style="width:180px;"class="shake">礦工生活</td>
+				</tr>
+			</table>
+			
+			<script>
+			
+			
+				
+			</script>
+			<table class="menu_mobile" style="text-align:center; margin-left:auto; margin-right:auto;margin-top:20%;">
+				<tr>
+					<td><a href="MiningIndustry.html#jpn0"><img src="img\first_img.png" style="width:70%;padding-bottom:10px;"class="shake"></a></td>
+					<td><a href="MineScenery.html#jpn0"><img src="img\second_img.png" style="width:70%;padding-bottom:10px;"class="shake"></a></td>
+				</tr>
+				<tr style="font-size:28px;color:white;">
+					<td style="width:180px;padding:10px;"class="shake">煤礦產業</td>
+					<td style="width:180px;padding:10px;"class="shake">礦道之景</td>
+				</tr>
+				<tr>
+					<td><a href="TraceBackmine.html#jpn0"><img src="img\third_img.png" style="width:70%;padding-bottom:10px;"class="shake"></a></td>
+					<td><a href="TechnologicalChange.html#jpn0"><img src="img\fourth_img.png" style="width:70%;padding-bottom:10px;"class="shake"></a></td>
+				</tr>
+				<tr style="font-size:28px;color:white;">
+					<td style="width:180px;padding:10px;"class="shake">追溯臺煤</td>
+					<td style="width:180px;padding:10px;"class="shake">技術變革</td>
+				</tr>
+				<tr>
+					<td><a href="SafetyDanger.html#jpn0"><img src="img\fifth_img.png" style="width:70%;padding-bottom:10px;"class="shake"></a></td>
+					<td><a href="MinerLife.html#jpn0"><img src="img\sixth_img.png" style="width:70%;padding-bottom:10px;"class="shake"></a></td>
+				</tr>
+				<tr style="font-size:28px;color:white;">
+					<td style="width:180px;padding:10px;"class="shake">安全危險</td>
+					<td style="width:180px;padding:10px;"class="shake">礦工生活</td>
+				</tr>
+			</table>
+		</div>
+		
+		
+		<div id="jpn0" style="margin-bottom:10%;">&nbsp;</div>
+		<div id="main-title" style="text-align:center;font-size:300%;color:#FFB671;padding:20px;">關於我們</div>
+		<!--block start-->
+		<div  id="content">
+			<div id="jpn1" style="margin-bottom:10%;">&nbsp;</div>
+			<div id="block">
+				<div class="row">
+					<div style="padding:10px;">
+						<span style="margin-left:10%;">簡介</span>
+					</div>
+				</div>
+				<div class="content">
+					<table class="content_table" style="border:1px solid white;table-layout:fixed;word-wrap:break-word;">
+						<tr style="text-align:center;max-width:100%;">
+							<td><img src="img/first_img.jpg" style="width:100%;"></td>
+						</tr>
+						<tr style="max-width:80%;">
+							<td class="firstContentTable" id="content">
+								礦坑
+							</td>
+						</tr>
+					</table>
+					<div class="secondContentTable">
+						
+								過去有礦場的地方，必定是繁榮的。
+								以菁桐的石底大斜坑為例，石底大斜坑的成功讓當時的平溪煤產達到最巔峰時期，礦工人數達到5000人以上，因當時的煤產是輝煌時期，而在當地興建福利社、員工宿舍、礦工醫院及礦工俱樂部等，礦產程度極為重要。
+								而現在九份、平溪、菁桐等礦區已經轉成觀光景點，多數來到這裡的民眾幾乎是逛老街、買紀念品、放天燈活動…等。原本十分重視保留的坑口，如今已荒廢到雜草叢生，極少人流的博物館和紀念公園。
+								隨著時間流逝，人們早已遺忘曾經屬於煤礦的輝煌時期，長久時間的轉變如此巨大，令人十分感慨。
+					</div>
+				</div>
+			</div>
+			<!--end of block-->
+			<!--block start-->
+			<div id="jpn2" style="margin-bottom:10%;">&nbsp;</div>
+			<div id="block">
+				<div class="row">
+					<div style="padding:10px;">
+						<span style="margin-left:10%;">緣由</span>
+					</div>
+				</div>
+				<div class="content">
+					<table class="content_table" style="border:1px solid white;table-layout:fixed;word-wrap:break-word;">
+						<tr style="text-align:center;max-width:100%;">
+							<td><img src="img/second_img.jpg" style="width:100%;"></td>
+						</tr>
+						<tr style="max-width:80%;">
+							<td class="firstContentTable">
+								
+								我是圖片敘述我是圖片敘述我是圖片敘述我是圖片敘述我是圖片敘述我是圖片敘述					
+							</td>
+						</tr>
+					</table>
+					<div class="secondContentTable">
+
+								我們希望，能讓來到這些地方觀光的民眾，簡單瞭解昔日的煤礦風情，於是決定選擇做煤礦的礦工為我們的主題。
+								「礦工」這職業對於現代人來說已經是個陌生職業，頂多從紀錄片或是一些電影情節裡知道礦工就是坑道裡工作，其實礦工是很艱辛的職業，是用體力用生命去換得養家餬口，也是當時職災風險高，職業病多的工作。
+
+					</div>
+				</div>
+			</div>
+			<!--end of block-->
+		
+		
+		
+		
+</body>
+</html>

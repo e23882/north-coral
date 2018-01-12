@@ -1,0 +1,278 @@
+﻿<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale= 1.0, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta http-equiv="Content-Type" content=""text/html; charset=utf-8>
+	<title>北之煤</title>
+	<link rel="icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="all.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="all.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="jquery-3.2.1.min.js"></script>
+	<script src="jquery-ui.min.js"></script>
+	
+</head>
+<body id="fmy" onload="testcookie();fadeout();slide();">
+		<div class="head" id="top" name="top">
+			<a href="index.html"><img class="head_logo" src="logo.png"/></a>
+			<a href="index.html"><img class="head_logo" src="北之煤.png" style="width:20%"/></a>
+			
+		</div>
+		
+		<!--import boostrap menu-->
+		<div class="bs">
+		<nav class="navbar navbar-fixed-top navbar-inverse">
+			<div class="container">
+				<div class="navbar-header">		
+						  <button data-toggle="collapse-side" data-target-sidebar=".side-collapse-left" data-target-content=".side-collapse-container-left" type="button" class="navbar-toggle pull-left">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						  </button>
+					  <div style="position:absolute;left:30%;padding:3px;" class="RWDlogo">
+						<table>	
+							<tr>
+								<td>
+									<img src="logo.png" style="width:100%;vertical-align: bottom"/>
+								</td>
+								<td>
+									<img src="北之煤.png" style="width:60%;padding-left:1%;"/>
+								</td>
+							</tr>
+						</table>	
+						
+						
+					  </div>
+				</div>
+				<div class="navbar-inverse side-collapse-left in">
+					<nav role="navigation" class="navbar-collapse">
+						<ul class="nav navbar-nav navbar-left">
+						   <li><a href="#jpn1"data-toggle="collapse-side">日治以前</a></li>
+						  <li><a href="#jpn2"data-toggle="collapse-side">日治時期</a></li>
+						  <li><a href="#jpn3"data-toggle="collapse-side">蘆溝橋事變</a></li>
+						  <li><a href="#jpn4"data-toggle="collapse-side">二戰爆發</a></li>
+						  <li><a href="#jpn5"data-toggle="collapse-side">臺灣光復</a></li>
+						  
+						</ul>
+						<form name="chformat">
+							<input type="text" id="plsfmy" placeholder="font-family" name="tbFontfmy"/>
+							<input type="text" id="plscol" placeholder="background-color" name="tbColor"/>
+							<input type="text" id="plssz" placeholder="font-size" name="tbSize"/>
+							<input type="button" value="確定" onclick="chgbgcolor(),chgSize(),chgfmy()"/><br>
+						</form>
+					</nav>
+				</div>
+			</div>
+		</nav>
+	</div>
+	   <!-- menu end-->
+		<a href="#" class="goHOME"><img class="topimg" src="img\top.png"/></a>
+		<div class="banner">
+			<!--banner img width:100%-->
+			<img src="banner.png" style="width:100%;margin-top:10px;"/>
+		</div>
+		<div id="menu"  style="text-align:center;padding-top:10px;">
+			
+			<table class="menu_pc" style="text-align:center;padding:0;margin-left:auto; margin-right:auto;">
+				<tr>
+					<td><a href="MiningIndustry.html#jpn0"><img src="img\first_img.png" style="width:60%;padding-bottom:10px;"class="shake"></a></td>
+					<td><a href="MineScenery.html#jpn0"><img src="img\second_img.png" style="width:60%;padding-bottom:10px;"class="shake"></a></td>
+					<td><a href="TraceBackmine.html#jpn0"><img src="img\third_img.png" style="width:60%;padding-bottom:10px;"class="shake"></a></td>
+					<td><a href="TechnologicalChange.html#jpn0"><img src="img\fourth_img.png" style="width:60%;padding-bottom:10px;"class="shake"></a></td>
+					<td><a href="SafetyDanger.html#jpn0"><img src="img\fifth_img.png" style="width:60%;padding-bottom:10px;"class="shake"></a></td>
+					<td><a href="MinerLife.html#jpn0"><img src="img\sixth_img.png" style="width:60%;padding-bottom:10px;"class="shake"></a></td>
+				</tr>
+				<tr style="font-size:28px;color:white;">
+					<td style="width:180px;"class="shake">煤礦產業</td>
+					<td style="width:180px;"class="shake">礦道之景</td>
+					<td style="width:180px;"class="shake">追溯臺煤</td>
+					<td style="width:180px;"class="shake">技術變革</td>
+					<td style="width:180px;"class="shake">安全危險</td>
+					<td style="width:180px;"class="shake">礦工生活</td>
+				</tr>
+			</table>
+			<table class="menu_mobile" style="text-align:center; margin-left:auto; margin-right:auto;margin-top:20%;">
+				<tr>
+					<td><a href="MiningIndustry.html#jpn0"><img src="img\first_img.png" style="width:70%;padding-bottom:10px;"class="shake"></a></td>
+					<td><a href="MineScenery.html#jpn0"><img src="img\second_img.png" style="width:70%;padding-bottom:10px;"class="shake"></a></td>
+				</tr>
+				<tr style="font-size:28px;color:white;">
+					<td style="width:180px;padding:10px;"class="shake">煤礦產業</td>
+					<td style="width:180px;padding:10px;"class="shake">礦道之景</td>
+				</tr>
+				<tr>
+					<td><a href="TraceBackmine.html#jpn0"><img src="img\third_img.png" style="width:70%;padding-bottom:10px;"class="shake"></a></td>
+					<td><a href="TechnologicalChange.html#jpn0"><img src="img\fourth_img.png" style="width:70%;padding-bottom:10px;"class="shake"></a></td>
+				</tr>
+				<tr style="font-size:28px;color:white;">
+					<td style="width:180px;padding:10px;"class="shake">追溯臺煤</td>
+					<td style="width:180px;padding:10px;"class="shake">技術變革</td>
+				</tr>
+				<tr>
+					<td><a href="SafetyDanger.html#jpn0"><img src="img\fifth_img.png" style="width:70%;padding-bottom:10px;"class="shake"></a></td>
+					<td><a href="MinerLife.html#jpn0"><img src="img\sixth_img.png" style="width:70%;padding-bottom:10px;"class="shake"></a></td>
+				</tr>
+				<tr style="font-size:28px;color:white;">
+					<td style="width:180px;padding:10px;"class="shake">安全危險</td>
+					<td style="width:180px;padding:10px;"class="shake">礦工生活</td>
+				</tr>
+			</table>
+		</div>
+		<div id="jpn0" style="margin-bottom:10%;">&nbsp;</div>
+		<div id="main-title" style="text-align:center;font-size:300%;color:#FFB671;padding:20px;">追溯臺煤</div>
+		<!--block start-->
+		<div  id="content">
+			<div id="jpn1" style="margin-bottom:10%;">&nbsp;</div>
+			<div id="block">
+				<div class="row">
+					<div style="padding:10px;">
+						<span style="margin-left:10%;">日治以前</span>
+					</div>
+				</div>
+				<div class="content">
+					<!--
+					<table class="content_table" style="border:1px solid white;table-layout:fixed;word-wrap:break-word;">
+						<tr style="text-align:center;max-width:100%;">
+							<td><img src="日治時期-01.jpg" style="width:100%;"></td>
+						</tr>
+						<tr style="max-width:80%;">
+							<td class="firstContentTable" id="content">
+								日治時期，日本人進駐臺灣後籌設置縱貫鐵路線，產業逐漸發達，此為日治時期時的火車，並運送著煤礦。						
+							</td>
+						</tr>
+					</table>
+					-->
+					<div class="secondContentTable">
+						
+								臺灣在納入清朝版圖前，被西班牙以及荷蘭、鄭成功佔領過。
+								西元1626年是臺灣煤礦的歷史起源，當時的西班牙人使用些許的煤炭作為補給品，向當地住民處購置煤炭作為軍需之用。
+								不過之後就被荷蘭人以武力趕跑，西元1644年荷蘭人的進駐鼓勵臺灣的原住民開採煤礦以為新航運的據點做建設，也因此開啟臺灣煤礦的源頭。	
+					</div>
+				</div>
+			</div>
+			<!--end of block-->
+			<!--block start-->
+			<div id="jpn2" style="margin-bottom:10%;">&nbsp;</div>
+			<div id="block">
+				<div class="row">
+					<div style="padding:10px;">
+						<span style="margin-left:10%;">日治時期</span>
+					</div>
+				</div>
+				<div class="content">
+					<table class="content_table" style="border:1px solid white;table-layout:fixed;word-wrap:break-word;">
+						<tr style="text-align:center;max-width:100%;">
+							<td><img src="img\demo.png" style="width:100%;"></td>
+						</tr>
+						<tr style="max-width:80%;">
+							<td class="firstContentTable">
+								
+								日治時期，日本人進駐臺灣後籌設至欉冠鐵路，產業逐漸發達，此為日治時期時的火車，並運送著煤礦。
+							</td>
+						</tr>
+					</table>
+					<div class="secondContentTable">
+						
+								來到日治時期，日本人進駐臺灣後籌設置縱貫鐵路線，產業逐漸發達，使得臺灣北部的煤礦從早期的水路運輸進步到陸路運輸。
+								船舶進出日頻繁，煤炭的需求量大幅增加。除了提高煤礦的運送性，也能更便利的將臺灣北部的煤礦運送到南部，促進南部工業的發展，呈現出能源與工業相互呼應的產業架構。
+								臺灣民國4年(1915)煤礦產量已達379368公噸。	
+					</div>
+				</div>
+			</div>
+			<!--end of block-->
+			<!--block start-->
+			<div id="jpn3" style="margin-bottom:10%;">&nbsp;</div>
+			<div id="block">
+				<div class="row">
+					<div style="padding:10px;">
+						<span style="margin-left:10%;">蘆溝橋事變</span>
+					</div>
+				</div>
+				<div class="content">
+					<table class="content_table" style="border:1px solid white;table-layout:fixed;word-wrap:break-word;">
+						<tr style="text-align:center;max-width:100%;">
+							<td><img src="img\demo.png" style="width:100%;"></td>
+						</tr>
+						<tr style="max-width:80%;">
+							<td class="firstContentTable">
+								
+								蘆溝橋事變。
+							</td>
+						</tr>
+					</table>
+					<div class="secondContentTable">
+						
+								民國26年（1937），因蘆溝橋事變的緣故使日本與中國的戰亂平凡，而在臺灣的部分為調配煤礦的生產與運銷以及採取礦、商分離政策，「臺灣炭礦會社」也就因此成立，此外，在戰亂期間煤碳的地位也從一開始的能源原料進一步的調整為戰略及軍事物資的地位。	
+					</div>
+				</div>
+			</div>
+			<!--end of block-->
+			<!--block start-->
+			<div id="jpn4" style="margin-bottom:10%;">&nbsp;</div>
+			<div id="block">
+				<div class="row">
+					<div style="padding:10px;">
+						<span style="margin-left:10%;">二戰爆發</span>
+					</div>
+				</div>
+				<div class="content">
+					<table class="content_table" style="border:1px solid white;table-layout:fixed;word-wrap:break-word;">
+						<tr style="text-align:center;max-width:100%;">
+							<td><img src="img\demo.png" style="width:100%;"></td>
+						</tr>
+						<tr style="max-width:80%;">
+							<td class="firstContentTable">
+								
+								由於二戰時期，男人被派去戰場，有許多女人也會來煤廠幫忙，此為平溪鄉常見的景象。
+							</td>
+						</tr>
+					</table>
+					<div class="secondContentTable">
+						
+								轉眼來到民國30 年（1941），第二次世界大戰的爆發，使得軍事物資的需求量大增，被日本統治的臺灣首當其衝的受到物資部分的管制，也進一步對臺灣頒布增產令，以提供各種航運使用，在同一時間裡原先的臺灣炭礦會社被改制為「臺灣石炭株式會社」，而在煤礦生產的部分全數交由日本統籌購入，並加強價格以及出口的管制，以因應戰亂時的配用。
+								由於戰亂時期物資的需求量大大提高，使得低生產率的煤礦場淪落強制關閉的命運，生產重心全數都轉移到大礦區上，但在日本節節敗退的強況下，臺灣的煤礦場的人力、物力資源急速匱乏，加上戰亂砲火的破壞下，臺灣煤礦漸漸地呈現停滯、癱瘓的狀態。	
+					</div>
+				</div>
+			</div>
+			<!--end of block-->
+			<!--block start-->
+			<div id="jpn5" style="margin-bottom:10%;">&nbsp;</div>
+			<div id="block">
+				<div class="row">
+					<div style="padding:10px;">
+						<span style="margin-left:10%;">臺灣光復</span>
+					</div>
+				</div>
+				<div class="content">
+					<table class="content_table" style="border:1px solid white;table-layout:fixed;word-wrap:break-word;">
+						<tr style="text-align:center;max-width:100%;">
+							<td><img src="img\demo.png" style="width:100%;"></td>
+						</tr>
+						<tr style="max-width:80%;">
+							<td class="firstContentTable">
+								
+								當時在台灣國內煤礦產業逐漸地下滑，煤廠也多了很多滯銷的煤礦。
+							</td>
+						</tr>
+					</table>
+					<div class="secondContentTable">
+						
+								進一步來到臺灣光復時期，煤礦產業逐漸地又被抬起至平穩發展的狀態，但當踏入民國49 年（1960）之後，原油的風潮轉變全球能源的趨勢，這對於外貿為主的臺灣來說，在外交以及出口能源價格下跌的情況下漸漸地失去自主權，而同時在臺灣國內煤礦產也逐漸地下滑，全球吹起「重油輕煤」趨勢。
+								在一場戲劇性的改變後使得臺灣煤礦透露出一絲絲的生機，能源危機的爆發讓沒落黯淡的煤礦又再度的受到重視；臺灣為了把握這個良機並積極的鞏固能源的自主及安全性，且在民國62年（1973）訂定「當前煤業政策」，主要目的在於重點性生產、協助良礦、淘汰次等礦等等措施，並且在煤礦產業的安全、技術方面更加的重視及改善，但相對的在重點性生產的政策下又有不少的小礦區、礦場被迫走向沒落。
+								在臺電的協助下，臺灣煤礦的繁榮光景短暫的乍現，導致如曇花一現的原因還是歸咎於礦場安全以及技術水準，由於早期一般的礦工大多都是農、漁方面的兼職礦工，因此採集方面的水準就難以提升，加上礦產業不定時遭遇的惡劣情況，使的礦產安全維護入不敷出，導致各種礦災頻頻發生，因此重創臺灣煤礦的經營。
+								而壓倒臺灣煤礦的最後一根稻草則是外煤的進入，由於自產煤礦的價格因各種因素而飆漲，使得許多臺灣的工業廠在成本因素的考量下不得不進口國外煤礦，雖然臺電公司一度補貼且支持國內煤礦產業的發展，但價格的進爭壓力下也壓得臺電公司財務經營難以喘息，使得這項策略無法長期維持，加上臺灣積極加入「關稅暨貿易總協定」，因此被迫取消不符合規範之國內合約，於民國86 年（1997）政府修訂了「當前煤業政策」後，頒布「臺灣地區煤業政策」，取消進口煤需搭配購買臺煤的規定，因此，價格高攀不下的臺灣煤礦漸漸的吹起了熄燈號，於民國89年（2000）最後一間礦場的關閉後正式走入歷史。
+
+					</div>
+				</div>
+			</div>
+			<!--end of block-->
+						
+		</div>
+		
+		
+		
+</body>
+</html>
